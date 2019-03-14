@@ -1,6 +1,6 @@
 {
-  "name": "french-press",
-  "version": "1.0.0",
+  "name": "french-press-cli",
+  "version": "1.0.1",
   "description": "Timer for your french press ☕",
   "main": "index.js",
   "scripts": {

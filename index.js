@@ -5,9 +5,11 @@ var inquirer = require('inquirer');
 var util = require('util');
 var ProgressBar = require('progress');
 var player = require('play-sound')(opts = {});
+var path = require('path');
 
+var appDir = path.dirname(require.main.filename);
 // Constants
-var ASSETS_DIRECTORY = './assets';
+var ASSETS_DIRECTORY = `${appDir}/assets`;
 var COFFEE_ART_FILE = 'coffee.txt'
 var RING_SOUND_FILE = 'telephone-ring.mp3';
 var PROGRESS_BAR_TICKS = 30;
